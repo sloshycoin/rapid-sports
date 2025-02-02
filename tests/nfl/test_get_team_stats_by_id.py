@@ -11,5 +11,7 @@ app_key = os.getenv("APPKEY")
 from rapid.nfl import NFLStatsAPI
 
 api = NFLStatsAPI(app_key)
-teams = api.get_teams()
-logging.debug(teams[0])
+
+# Test get_team_stats_by_id
+team_stats = api.get_team_stats_by_id("team_id_example", 2021)
+logging.debug(team_stats)
