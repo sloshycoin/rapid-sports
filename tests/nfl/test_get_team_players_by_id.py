@@ -14,8 +14,7 @@ from rapid.nfl import NFLStatsAPI
 api = NFLStatsAPI(app_key)
 
 # Test get_team_by_id
-team = api.get_team_by_id("26")
-logging.debug(team)
-with open('team_Info.json', 'w') as f:
-    dump(team, f, indent=4)
+players = api.get_team_players_by_id("26")
+with open('team_Players.json', 'w') as f:
+    dump(players, f, indent=4)
     logging.debug("Wrote teams to tests/nfl/teams.json")

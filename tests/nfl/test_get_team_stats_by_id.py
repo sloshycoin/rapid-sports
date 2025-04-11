@@ -13,5 +13,5 @@ from rapid.nfl import NFLStatsAPI
 api = NFLStatsAPI(app_key)
 
 # Test get_team_stats_by_id
-team_stats = api.get_team_stats_by_id("team_id_example", 2021)
+team_stats = api.get_team_stats_by_id("26", 2024)
 logging.debug(team_stats)

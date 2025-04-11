@@ -1,0 +1,1059 @@
+{
+    "filters": [
+        {
+            "displayName": "League",
+            "name": "league",
+            "value": "nfl",
+            "options": [
+                {
+                    "value": "college-football",
+                    "displayValue": "NCAA - Football",
+                    "shortDisplayName": "NCAAF"
+                },
+                {
+                    "value": "nfl",
+                    "displayValue": "National Football League",
+                    "shortDisplayName": "NFL"
+                }
+            ]
+        },
+        {
+            "displayName": "Season",
+            "name": "seasontype",
+            "value": "2",
+            "options": [
+                {
+                    "value": "2",
+                    "displayValue": "Regular Season"
+                },
+                {
+                    "value": "3",
+                    "displayValue": "Postseason"
+                }
+            ]
+        }
+    ],
+    "teams": {
+        "dallas-cowboys": {
+            "id": "6",
+            "uid": "s:20~l:28~t:6",
+            "guid": "b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234",
+            "slug": "dallas-cowboys",
+            "location": "Dallas",
+            "name": "Cowboys",
+            "nickname": "Cowboys",
+            "abbreviation": "DAL",
+            "displayName": "Dallas Cowboys",
+            "shortDisplayName": "Cowboys",
+            "color": "002E4D",
+            "alternateColor": "b0b7bc",
+            "isActive": true,
+            "isAllStar": false,
+            "logos": [
+                {
+                    "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+                    "width": 500,
+                    "height": 500,
+                    "rel": [
+                        "full",
+                        "default"
+                    ]
+                },
+                {
+                    "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+                    "width": 500,
+                    "height": 500,
+                    "rel": [
+                        "full",
+                        "dark"
+                    ]
+                },
+                {
+                    "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+                    "width": 500,
+                    "height": 500,
+                    "rel": [
+                        "full",
+                        "scoreboard"
+                    ]
+                },
+                {
+                    "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+                    "width": 500,
+                    "height": 500,
+                    "rel": [
+                        "full",
+                        "scoreboard",
+                        "dark"
+                    ]
+                },
+                {
+                    "href": "https://a.espncdn.com/guid/b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234/logos/primary_logo_on_white_color.png",
+                    "width": 4096,
+                    "height": 4096,
+                    "rel": [
+                        "full",
+                        "primary_logo_on_white_color"
+                    ]
+                },
+                {
+                    "href": "https://a.espncdn.com/guid/b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234/logos/primary_logo_on_black_color.png",
+                    "width": 4096,
+                    "height": 4096,
+                    "rel": [
+                        "full",
+                        "primary_logo_on_black_color"
+                    ]
+                },
+                {
+                    "href": "https://a.espncdn.com/guid/b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234/logos/primary_logo_on_primary_color.png",
+                    "width": 4096,
+                    "height": 4096,
+                    "rel": [
+                        "full",
+                        "primary_logo_on_primary_color"
+                    ]
+                },
+                {
+                    "href": "https://a.espncdn.com/guid/b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234/logos/primary_logo_on_secondary_color.png",
+                    "width": 4096,
+                    "height": 4096,
+                    "rel": [
+                        "full",
+                        "primary_logo_on_secondary_color"
+                    ]
+                },
+                {
+                    "href": "https://a.espncdn.com/guid/b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234/logos/secondary_logo_on_white_color.png",
+                    "width": 4096,
+                    "height": 4096,
+                    "rel": [
+                        "full",
+                        "secondary_logo_on_white_color"
+                    ]
+                },
+                {
+                    "href": "https://a.espncdn.com/guid/b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234/logos/secondary_logo_on_black_color.png",
+                    "width": 4096,
+                    "height": 4096,
+                    "rel": [
+                        "full",
+                        "secondary_logo_on_black_color"
+                    ]
+                },
+                {
+                    "href": "https://a.espncdn.com/guid/b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234/logos/secondary_logo_on_primary_color.png",
+                    "width": 4096,
+                    "height": 4096,
+                    "rel": [
+                        "full",
+                        "secondary_logo_on_primary_color"
+                    ]
+                },
+                {
+                    "href": "https://a.espncdn.com/guid/b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234/logos/secondary_logo_on_secondary_color.png",
+                    "width": 4096,
+                    "height": 4096,
+                    "rel": [
+                        "full",
+                        "secondary_logo_on_secondary_color"
+                    ]
+                }
+            ],
+            "links": [
+                {
+                    "language": "en",
+                    "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+                    "text": "Clubhouse",
+                    "shortText": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "roster",
+                        "desktop",
+                        "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/dal/dallas-cowboys",
+                    "text": "Roster",
+                    "shortText": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/dal/dallas-cowboys",
+                    "text": "Statistics",
+                    "shortText": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+                    "text": "Schedule",
+                    "shortText": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "photos",
+                        "desktop",
+                        "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/photos/_/name/dal",
+                    "text": "photos",
+                    "shortText": "photos",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "tickets",
+                        "desktop",
+                        "team"
+                    ],
+                    "href": "https://www.vividseats.com/dallas-cowboys-tickets--sports-nfl-football/performer/214?wsUser=717",
+                    "text": "Tickets",
+                    "shortText": "Tickets",
+                    "isExternal": true,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "draftpicks",
+                        "desktop",
+                        "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/draft/teams/_/name/dal/dallas-cowboys",
+                    "text": "Draft Picks",
+                    "shortText": "Draft Picks",
+                    "isExternal": false,
+                    "isPremium": true
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "transactions",
+                        "desktop",
+                        "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/transactions/_/name/dal",
+                    "text": "Transactions",
+                    "shortText": "Transactions",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "injuries",
+                        "desktop",
+                        "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/injuries/_/name/dal",
+                    "text": "Injuries",
+                    "shortText": "Injuries",
+                    "isExternal": false,
+                    "isPremium": false
+                },
+                {
+                    "language": "en",
+                    "rel": [
+                        "depthchart",
+                        "desktop",
+                        "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/depth/_/name/dal",
+                    "text": "Depth Chart",
+                    "shortText": "Depth Chart",
+                    "isExternal": false,
+                    "isPremium": false
+                }
+            ],
+            "groups": {},
+            "coaches": {},
+            "venue": {
+                "id": "3687",
+                "fullName": "AT&T Stadium",
+                "address": {
+                    "city": "Arlington",
+                    "state": "TX",
+                    "zipCode": "76011",
+                    "country": "USA"
+                },
+                "grass": false,
+                "indoor": true,
+                "images": [
+                    {
+                        "href": "https://a.espncdn.com/i/venues/nfl/day/3687.jpg",
+                        "width": 2000,
+                        "height": 1125,
+                        "rel": [
+                            "full",
+                            "day"
+                        ]
+                    },
+                    {
+                        "href": "https://a.espncdn.com/i/venues/nfl/day/interior/3687.jpg",
+                        "width": 2000,
+                        "height": 1125,
+                        "rel": [
+                            "full",
+                            "day",
+                            "interior"
+                        ]
+                    }
+                ]
+            },
+            "record": {},
+            "againstTheSpreadRecords": {},
+            "ranks": {},
+            "franchise": {}
+        }
+    },
+    "categories": [
+        {
+            "name": "defensive",
+            "displayName": "Defense",
+            "labels": [
+                "GP",
+                "TOT",
+                "SOLO",
+                "AST",
+                "SACK",
+                "FF",
+                "FR",
+                "YDS",
+                "INT",
+                "YDS",
+                "AVG",
+                "TD",
+                "LNG",
+                "PD",
+                "STF",
+                "STFYDS",
+                "KB"
+            ],
+            "names": [
+                "gamesPlayed",
+                "totalTackles",
+                "soloTackles",
+                "assistTackles",
+                "sacks",
+                "fumblesForced",
+                "fumblesRecovered",
+                "fumblesRecoveredYards",
+                "interceptions",
+                "interceptionYards",
+                "avgInterceptionYards",
+                "interceptionTouchdowns",
+                "longInterception",
+                "passesDefended",
+                "stuffs",
+                "stuffYards",
+                "kicksBlocked"
+            ],
+            "displayNames": [
+                "Games Played",
+                "Total Tackles",
+                "Solo Tackles",
+                "Assist Tackles",
+                "Sacks",
+                "Forced Fumbles",
+                "Fumbles Recovered",
+                "Fumbles Recovered Yards",
+                "Interceptions",
+                "Interception Yards",
+                "Average Interception Yards",
+                "Interception Touchdowns",
+                "Long Interception",
+                "Passes Defended",
+                "Stuffs",
+                "Stuff Yards",
+                "Kicks Blocked"
+            ],
+            "descriptions": [
+                "Games Played",
+                "The total number of tackles.",
+                "The number of times a tackle was made unassisted.",
+                "The number of assists on tackles.",
+                "The total number of sacks.",
+                "The total number of forced fumbles.",
+                "The number of fumbles recovered.",
+                "The number of yards gained after a fumble is recovered.",
+                "The total number of interceptions.",
+                "The number of yards gained after an interception.",
+                "The average number of return yards per interception.",
+                "The number of times an interception is returned for a touchdown.",
+                "The amount of yards of the longest interception return.",
+                "The total number of passes defended.",
+                "The number of times that a runner is stuffed at or behind the line of scrimmage.",
+                "The number of yards lost from stuffs.",
+                "The number of times a kick was blocked."
+            ],
+            "statistics": [
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2014,
+                        "displayName": "2014"
+                    },
+                    "stats": [
+                        "7",
+                        "9",
+                        "6",
+                        "3",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0.0",
+                        "0",
+                        "0",
+                        "0",
+                        "1",
+                        "4",
+                        "0"
+                    ],
+                    "position": "DE"
+                },
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2015,
+                        "displayName": "2015"
+                    },
+                    "stats": [
+                        "16",
+                        "55",
+                        "35",
+                        "20",
+                        "8",
+                        "1",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0.0",
+                        "0",
+                        "0",
+                        "0",
+                        "10",
+                        "16",
+                        "0"
+                    ],
+                    "position": "DE"
+                },
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2016,
+                        "displayName": "2016"
+                    },
+                    "stats": [
+                        "9",
+                        "11",
+                        "8",
+                        "3",
+                        "1",
+                        "1",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0.0",
+                        "0",
+                        "0",
+                        "0",
+                        "3",
+                        "14",
+                        "0"
+                    ],
+                    "position": "DE"
+                },
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2017,
+                        "displayName": "2017"
+                    },
+                    "stats": [
+                        "16",
+                        "58",
+                        "35",
+                        "23",
+                        "14.5",
+                        "4",
+                        "2",
+                        "0",
+                        "0",
+                        "0",
+                        "0.0",
+                        "0",
+                        "0",
+                        "1",
+                        "5",
+                        "11",
+                        "0"
+                    ],
+                    "position": "DE"
+                },
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2018,
+                        "displayName": "2018"
+                    },
+                    "stats": [
+                        "16",
+                        "64",
+                        "42",
+                        "22",
+                        "10.5",
+                        "2",
+                        "1",
+                        "5",
+                        "1",
+                        "13",
+                        "13.0",
+                        "0",
+                        "13",
+                        "1",
+                        "10",
+                        "20",
+                        "0"
+                    ],
+                    "position": "DE"
+                },
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2019,
+                        "displayName": "2019"
+                    },
+                    "stats": [
+                        "16",
+                        "45",
+                        "30",
+                        "15",
+                        "5",
+                        "2",
+                        "2",
+                        "0",
+                        "0",
+                        "0",
+                        "0.0",
+                        "0",
+                        "0",
+                        "2",
+                        "9",
+                        "22",
+                        "0"
+                    ],
+                    "position": "DE"
+                },
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2020,
+                        "displayName": "2020"
+                    },
+                    "stats": [
+                        "16",
+                        "58",
+                        "34",
+                        "24",
+                        "6.5",
+                        "4",
+                        "1",
+                        "0",
+                        "0",
+                        "0",
+                        "0.0",
+                        "0",
+                        "0",
+                        "2",
+                        "9",
+                        "20",
+                        "0"
+                    ],
+                    "position": "DE"
+                },
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2021,
+                        "displayName": "2021"
+                    },
+                    "stats": [
+                        "7",
+                        "21",
+                        "16",
+                        "5",
+                        "3",
+                        "2",
+                        "0",
+                        "0",
+                        "1",
+                        "40",
+                        "40.0",
+                        "1",
+                        "1",
+                        "5",
+                        "2.5",
+                        "4",
+                        "0"
+                    ],
+                    "position": "DE"
+                },
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2022,
+                        "displayName": "2022"
+                    },
+                    "stats": [
+                        "17",
+                        "65",
+                        "43",
+                        "22",
+                        "6",
+                        "3",
+                        "1",
+                        "19",
+                        "0",
+                        "0",
+                        "0.0",
+                        "0",
+                        "0",
+                        "3",
+                        "11",
+                        "7",
+                        "0"
+                    ],
+                    "position": "DE"
+                },
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2023,
+                        "displayName": "2023"
+                    },
+                    "stats": [
+                        "17",
+                        "50",
+                        "29",
+                        "21",
+                        "4",
+                        "1",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0.0",
+                        "0",
+                        "0",
+                        "6",
+                        "11.5",
+                        "18",
+                        "0"
+                    ],
+                    "position": "DE"
+                },
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2024,
+                        "displayName": "2024"
+                    },
+                    "stats": [
+                        "4",
+                        "14",
+                        "7",
+                        "7",
+                        "3",
+                        "1",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0.0",
+                        "0",
+                        "0",
+                        "0",
+                        "1",
+                        "2",
+                        "0"
+                    ],
+                    "position": "DE"
+                }
+            ],
+            "totals": [
+                "141",
+                "450",
+                "285",
+                "165",
+                "61.5",
+                "21",
+                "7",
+                "24",
+                "2",
+                "53",
+                "26.5",
+                "1",
+                "13",
+                "20",
+                "73",
+                "138",
+                "0"
+            ],
+            "sortKey": "defensive"
+        },
+        {
+            "name": "scoring",
+            "displayName": "Scoring",
+            "labels": [
+                "GP",
+                "PASS",
+                "RUSH",
+                "REC",
+                "RET",
+                "TD",
+                "2PT",
+                "PAT",
+                "FG",
+                "PTS"
+            ],
+            "names": [
+                "gamesPlayed",
+                "passingTouchdowns",
+                "rushingTouchdowns",
+                "receivingTouchdowns",
+                "returnTouchdowns",
+                "totalTouchdowns",
+                "totalTwoPointConvs",
+                "kickExtraPoints",
+                "fieldGoals",
+                "totalPoints"
+            ],
+            "displayNames": [
+                "Games Played",
+                "Passing Touchdowns",
+                "Rushing Touchdowns",
+                "Receiving Touchdowns",
+                "Return Touchdowns",
+                "Total Touchdowns",
+                "Total Two Point Conversions",
+                "Kick Extra Points",
+                "Field Goals",
+                "Total Points"
+            ],
+            "descriptions": [
+                "Games Played",
+                "The total number of passing touchdowns.",
+                "The total number of rushing touchdowns.",
+                "The total number of receiving touchdowns.",
+                "The total number of return touchdowns.",
+                "The number of touchdowns scored in total.",
+                "The number of times a 2-point conversion is successful.",
+                "The number of extra points made.",
+                "The number of field goals made.",
+                "The number of total points scored."
+            ],
+            "statistics": [
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2021,
+                        "displayName": "2021"
+                    },
+                    "stats": [
+                        "7",
+                        "0",
+                        "0",
+                        "0",
+                        "1",
+                        "1",
+                        "0",
+                        "-",
+                        "0",
+                        "6"
+                    ],
+                    "position": "DE"
+                },
+                {
+                    "teamId": "6",
+                    "teamSlug": "dallas-cowboys",
+                    "season": {
+                        "year": 2022,
+                        "displayName": "2022"
+                    },
+                    "stats": [
+                        "17",
+                        "0",
+                        "0",
+                        "0",
+                        "1",
+                        "1",
+                        "0",
+                        "-",
+                        "0",
+                        "6"
+                    ],
+                    "position": "DE"
+                }
+            ],
+            "totals": [
+                "141",
+                "0",
+                "0",
+                "0",
+                "2",
+                "2",
+                "0",
+                "-",
+                "0",
+                "12"
+            ],
+            "sortKey": "scoring"
+        }
+    ],
+    "glossary": [
+        {
+            "abbreviation": "1-19\t",
+            "displayName": "FGM 1-19 yards"
+        },
+        {
+            "abbreviation": "20-29\t",
+            "displayName": "FGM 20-29 yards"
+        },
+        {
+            "abbreviation": "2PT",
+            "displayName": "Total Two Point Conversions"
+        },
+        {
+            "abbreviation": "30-39",
+            "displayName": "FGM 30-39 yards"
+        },
+        {
+            "abbreviation": "40-49\t",
+            "displayName": "FGM 40-49 yards"
+        },
+        {
+            "abbreviation": "50+",
+            "displayName": "FGM 50+ yards"
+        },
+        {
+            "abbreviation": "AST",
+            "displayName": "Assist Tackles"
+        },
+        {
+            "abbreviation": "ATT",
+            "displayName": "Punt Returns"
+        },
+        {
+            "abbreviation": "AVG",
+            "displayName": "Average Interception Yards"
+        },
+        {
+            "abbreviation": "CAR",
+            "displayName": "Rushing Attempts"
+        },
+        {
+            "abbreviation": "CMP",
+            "displayName": "Completions"
+        },
+        {
+            "abbreviation": "CMP%",
+            "displayName": "Completion Percentage"
+        },
+        {
+            "abbreviation": "FC",
+            "displayName": "Punt Return Fair Catches"
+        },
+        {
+            "abbreviation": "FD",
+            "displayName": "Rushing 1st downs"
+        },
+        {
+            "abbreviation": "FF",
+            "displayName": "Forced Fumbles"
+        },
+        {
+            "abbreviation": "FG",
+            "displayName": "Field Goals"
+        },
+        {
+            "abbreviation": "FG%",
+            "displayName": "Field Goal Percentage"
+        },
+        {
+            "abbreviation": "FR",
+            "displayName": "Fumbles Recovered"
+        },
+        {
+            "abbreviation": "FUM",
+            "displayName": "Rushing Fumbles"
+        },
+        {
+            "abbreviation": "GP",
+            "displayName": "Games Played"
+        },
+        {
+            "abbreviation": "IN20",
+            "displayName": "Punts Inside 20"
+        },
+        {
+            "abbreviation": "IN20%",
+            "displayName": "Punts Inside 20 Percentage"
+        },
+        {
+            "abbreviation": "INT",
+            "displayName": "Interceptions"
+        },
+        {
+            "abbreviation": "KB",
+            "displayName": "Kicks Blocked"
+        },
+        {
+            "abbreviation": "KRFC",
+            "displayName": "Kick Return Fair Catches"
+        },
+        {
+            "abbreviation": "LNG",
+            "displayName": "Long Interception"
+        },
+        {
+            "abbreviation": "LST",
+            "displayName": "Rushing Fumbles Lost"
+        },
+        {
+            "abbreviation": "NET",
+            "displayName": "Net Average Punt Yards"
+        },
+        {
+            "abbreviation": "PASS",
+            "displayName": "Passing Touchdowns"
+        },
+        {
+            "abbreviation": "PAT",
+            "displayName": "Kick Extra Points"
+        },
+        {
+            "abbreviation": "PD",
+            "displayName": "Passes Defended"
+        },
+        {
+            "abbreviation": "PTS",
+            "displayName": "Total Points"
+        },
+        {
+            "abbreviation": "PUNTS",
+            "displayName": "Punts"
+        },
+        {
+            "abbreviation": "QBR",
+            "displayName": "Adjusted QBR"
+        },
+        {
+            "abbreviation": "REC",
+            "displayName": "Receiving Touchdowns"
+        },
+        {
+            "abbreviation": "RET",
+            "displayName": "Return Touchdowns"
+        },
+        {
+            "abbreviation": "RTG",
+            "displayName": "Passer Rating"
+        },
+        {
+            "abbreviation": "RUSH",
+            "displayName": "Rushing Touchdowns"
+        },
+        {
+            "abbreviation": "SACK",
+            "displayName": "Sacks"
+        },
+        {
+            "abbreviation": "SOLO",
+            "displayName": "Solo Tackles"
+        },
+        {
+            "abbreviation": "STF",
+            "displayName": "Stuffs"
+        },
+        {
+            "abbreviation": "STFYDS",
+            "displayName": "Stuff Yards"
+        },
+        {
+            "abbreviation": "TB",
+            "displayName": "Touchbacks"
+        },
+        {
+            "abbreviation": "TB%",
+            "displayName": "Touchback Percentage"
+        },
+        {
+            "abbreviation": "TD",
+            "displayName": "Interception Touchdowns"
+        },
+        {
+            "abbreviation": "TGTS",
+            "displayName": "Receiving Targets"
+        },
+        {
+            "abbreviation": "TOT",
+            "displayName": "Total Tackles"
+        },
+        {
+            "abbreviation": "XPA",
+            "displayName": "Extra Point Attempts"
+        },
+        {
+            "abbreviation": "XPM",
+            "displayName": "Extra Points Made"
+        },
+        {
+            "abbreviation": "YDS",
+            "displayName": "Fumbles Recovered Yards"
+        }
+    ]
+}

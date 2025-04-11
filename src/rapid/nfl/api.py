@@ -77,6 +77,12 @@ class NFLStatsAPI:
         response = requests.get(url, headers=self.__headers, params=data)
         return response.json()
 
+    def get_team_players_by_id(self, team_id: str):
+        url = f"{self.url}/nfl-player-listing/v1/data"
+        data = {"id": team_id}
+        response = requests.get(url, headers=self.__headers, params=data)
+        return response.json()
+
     def get_team_stats_by_id(self, team_id: str, year: int):
         url = f"{self.url}/nfl-team-statistics"
         data = {"id": team_id, "year": f"{year}"}
